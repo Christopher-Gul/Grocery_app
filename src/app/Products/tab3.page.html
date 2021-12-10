@@ -1,0 +1,101 @@
+
+
+<ion-header>
+  <ion-toolbar color="light">
+
+    <ion-title>
+      <img class="imgG" alt="logo" height="40"   src="https://seeklogo.com/images/G/grocery-store-logo-3B65A40953-seeklogo.com.png" >
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+<ion-header >
+  <h3 >
+    Market
+  </h3>
+</ion-header>
+  <div class="Slid">
+    <ion-icon class="icon ion-ios-clock-outline"></ion-icon> 
+<span style="text-align: center;" class="text">  Vegetables Fruits Meats Cat food   </span>
+  </div> 
+
+  <ion-card>
+    <img src="https://www.collinsdictionary.com/images/full/tomato_281240360.jpg"/>
+    <ion-card-content>
+      <ion-card-title>
+        Tomato
+        </ion-card-title>
+      <p>
+        Domestic tomato! <br>
+        Add to cart.
+      </p>
+      <ion-item no-lines>
+        
+        <ion-input type="number" text-center></ion-input>                   
+    <button (click)="showAlert()" style="background-color: green;">Add to cart!</button>
+     </ion-item>
+      
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhMWFhUWGBcYGBcXFxgYFxcaGBgXFxcXGBsaHSggGBolGxYYITEhJSkrLy4uFx8zODMtNygtLisBCgoKDg0OGhAQGy0mHyUtLS0tKy4tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAwQCBQYHAQj/xAA8EAACAQIDBgQEBAUDBAMAAAAAAQIDEQQhMQUSQVFhcQYigZEyodHwE0KxwQdSYuHxFHKCI1OSshUz0v/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACMRAQEBAAIBBQACAwAAAAAAAAABAgMRMQQSIUFRE3EUQlL/2gAMAwEAAhEDEQA/APcQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD5cD6DWY/b1CknvTu1+WOb7cjnsV44z8lJJfzTl+yM9cuM+ardSO0B55PxjXvk458FG/6k2H8Y1r+ZQ9Vb9zL/L40fyR3oNNs3xDSq5NqMuruvc3KZvnedTuVfsABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+Nmv2rtilQXnefCK1/scDtzxRUq3i3uw/ljfTrzMuTmzhTW5HZ7Y8T0KC+LflwjHP3eiOJ2r4sr1b3f4ceSvd+2Zz0p70k1m+bV36cvQjc77189fKna/rxfRHm83rLfiMdclqzVxLel237Lu9ER1q+7q95vhovvMryxF0lpbhw/ya+rPM4ta3ryztWp42bulK3RWRFHEWI4x5/aM3SSd28jK/CfLY7OxE73u1H70PQ/CniO7VGo7rRS5PkeWf63NL77Gy2dXamrZfsdPpuXeb20xenuYNbsnH79GEnq1n6Nr9ge7Nyx0NkAC4AAAAAAAAAAAAAAAAAAAAAAIsRiIwW9OSiubdjltseL7eWilb/uSyX/FPXu/Ypvkznyi6kdNi8ZClHeqSUV149uZxe2/G+bhQy4X4++iOR2jtpzk/M5yz8zva/S5rHVlLj89PY4Ob1n1GGuW3w2GJ2lKTbk7t8W7tFBLVt5Pnm32Rm42XXK2eTX7HynBOT4N8WcG9a1WVrGc/K7tJK2aeT53KtetaSta0uKd2voS4pqEZJp8Vz6XRWoU7LLOy+SQnHJ5Vr6r7zzy4JmE55XXa+vcxbu88u5HVxKWWuTRF+fiCSLUdbduXchxWIvo2yi5OxnT1vcZxJ5SsUFc6HA5JX1a+X+MjX4DD5Xa7L9l0NnhleTvqbYx8tMx6n4Zo3w1N9H/AOzBstiUt3D0o6eSN+7V3+oPYzn4jpkXgAaJAAAAAAAAAAAAAAAAAR1q0YJyk0kuLOY2t4xhG6pK9vzNf+sb39ymt5z5RbJ5dPWrRgnKTSS4s5na/i+ELxp2f9UtPRav1OG2n4knU+Kbb5X09sl6GmnWv39zi5fWf8sdcv42+09vVakrtvvLN+iWSRpsRUlN5uT79jGMOWhaw+HUoyur3TV9Lcjg1ya2x7tV407LL1JqdK60+voTXiqaV25R1f5dLP6+5UnXkrJWV72zK5whLUnFqy1vne9+/wArEFOp6Z8TGjNXbebzuuN0Qbl1vN2zuW1YM8TPfyfC+V+K5Ekd1Ju/3azXzKM6qvZZcSKFWzTen3k/kZ96tSsVnvLklks+HL+5rMV5ZZ/Is1q7emS+/v0MKlLfs0ndZPr1LySHXas4N5mwwOHTu3wt78ialhUopS1vpp7snp56W6W0X1NM5t8JmUlJu/JLJL3Oi8J7L/Grxh+XWX+1a++n/I0+EwrlKMUm28klq3/k9b8LbDWGp+a34krbzXC2kV0R28PF3WuM9t3YH0He3AAAAAAAAAAAAAAFHaO1qNFXqTS5LVv0Ry+0fGrbcaFPK3/2Tsl6IprkznyrdSOwxOKhTW9OSiurOZ2t4yhBP8Fb39cso+nFnAbV2/Kcn5t+X80vhXZGkruc3ecm3l19uRxcvrPrLHXN+N9tbxPOrJ+ZzfN5RXSMV+ppHWbfmfZcPYyp4dJO8t3mtZfIkw+C3vha9cmefvk1qsrbUVOnfX/Bahh+itk7vj+58pw3dXmvb+5lWxfBvXS2fRkZxfKGdZxjo3J24Wy058NUVf8AWpy3ZZe7vllp7FWtWcnySvbqsnnzI9G5Rbu7Xk/vh+5aztHaR15Lg02rZ9eRjJN5vy6/MwnO+bld68yNveW85Wil7vLTnqnYi3tKapXUbqN23q/oU5V72Xy4LuzKtX3co5frYpb2Y9v6LFSpZK1s0RyaPm7yJqeG5kyfiemeFp7z42+0bGmlFZP09Mn89SvCze6vZfeZap4dt+bLpxNs8d+158MIQcnbhx+nc2Gz9mym4wgnJt5RXE2WxNh1K73aUMk85v4Y93+2p6dsLYNLDR8qvN/FN/E+i5LodfFw9r5x2peFfDEcNFTlZ1WteEOkevNnRgHbnMk6jaToABKQAAAAAAIMXi4U1vTkorqBOfGzj9reOoQvGhH8SWSTbyu+y0OT2t4oqzT353/pjlFc+5jvnzlS8kj0XaHiOhSy3t+XKGfz0OW2v4ym091qlHn8U325HD4zaM5KyaUXro2+j4JFJ5vi788zi5fWfjHXLWzx211NvyuT/mm79n1KE6lWq0ruT5Ilo4Cc3lFvtqXVspx+OUd211uvN37pdDluuTX9M/mtZQwrvazvxS1Xd8Db4LZy3XKTslql878WKeNgrQhGzffP6swqzcZy35OMklJJ8eWmnHqTnEQu0sVGOW4+mi+SWfqUsdiKa3Zqys2nb4svytPXVNX5Mgxtdzk3QjaCirzle9872u9ORrqGItNbr3/NvNvNOXN8y9v0nt9xte8Umkn0ST78zChPd7vi+H9yvi97ezd225NrTt98yJVJSeS1t3KW/Kqzvxi7X0v110v7fNlbFV3LJWUbJevN9THepwu/ifB6J249syhUnzfsR1RcutE238vR3MJ1N1btu97/AFKtrklGm3lrr7CTpI3d/bJadFvXJE34O73M4Nye7FXfPh1LzFqZl8jSzy0+fp8i1So30WRLRwPGV3bgnZPuzoPD/h6rirKMbRWsrWpx/wD0+h0Y4vxpMtTgqK+GF5SlyTevBHfeG/BDaU8TktVTWr/3Ph2WZ02wvDdHDJOK3qnGbWf/ABWkV2N0deOGTy1zj9RYfDxhFRhFRitElZEoBu0AAAAAAAACHE4mNOLlOSSXFmt294gp4ZO7vO11Hl1fJHle3/E1TESd3dcF+Ux5OaYU3yTLsdteO0k40Fz8z09zhsdt6dR3k3N9X5V9TTTcpvPPoizh9nyk7Wz5cfV8EcW+XWnNrkukqx0pOz05Ry/Yw/Ala7yXN5v+5u8JsZxzlLc7Zv3MKyhTqb0FObg/Nmt1Jq2d+tn6oxvHq+UdVTwmz1K14y0TTdt1p3RcnQUVnvf7V9/NHzE068E5ynTdOPxRjfyrkm1ZtEEfEEXu/hxb5t8dCf45nydNphatWyVOG6uEnf7uU9p4j8OXns5at7ya7Wvk/qihVxVSavOpuxzk87dX/gjlh6Uaak43k7NN6598ybfj4O17aGPUtxp5Jct1K/Jatmox2ObflSbaS3mvh/2nyrXzcpWsvlkVN9zW9rfNdLcDLWrUElklUqOXS+XPRdyKD5KyX3mTRoQWbTaKOJxCfG0U9OfXqRJaLFapL8ui5lanidy6Wv7kNXGXSUcvUh4Fvb+jKrUbZhDJczJU8ySkryUUr9f8F5m/SZEtONyxSlbRZsno4JtXnK3RF/CYZb27BNt5JJXf7tsvnjWkVsNgW/NUdkbXB7NnUf4dKEnfhFXdnxk+GZ1ew/A9WpaVf/pQ/l1m+64evseg7N2XSoR3aUFHm+L7vVnVjhta5w5LYHgRRaniZKVtKUfh/wCT/N2O2p00kkkklolkkZg6c5mfDWSQABZIAAAAAAAAaPxTt6OGpt387Tt0XP6G0x+LjSpyqTdoxTbPD9v7Wniqsqknk3kuS0Rjy8ntnwz5N+2INp4+deTlJvN3tq33K+Bw+/Zvna2rvyPlCSTzzL2Fr58uK0S5M4LLb3XL5q3DDWW7CK3rN8W33tmbfDYWUVaMbt6vllmaqntOMb8Xyjl7n2tjsTUW7Bbieu7l7s0nti06bTEzp07/AI9S9uEW91Pl1Zzu09u03bcp2UfhV3u303t3RvqVsThnF2l5nyuV3h4Rf/UaVtc+BXWr9ItV8RWq4h2m3bWyyVuxsaOF3LJK2iSNbU2vuSk6a6Loivv1Kjcpyd36faMfHzVW2xu0FFuKae61krWv9NSs4SqXlO9rlSnSs7v05nzGbUdlFcMvv2IvdSstuzjlurVt9irido2sopKMeCvnyz++JQqYhy1MWlx+rEyM54qTSV/Ygd7me8lz++31PtCG8+C6cX6cjSZtT0xSJKad0kry9y/TwMVZ1JZ8Fp7JG72VsyU5KFGk23wSvJ/RdWXnGtMtNQ2XJq8ml0++JvNn7KbahRpuUnwSbfqd7sL+H+k8TK39EXn6y4enudvgNn06MdylBRXRa9W9W+50Y4LfLbOHn+xv4eVJebET3E/yxs5dr6R+Z22xfD9DCxtRhZ8ZPOT9fobQHRnEz4aTMgAC6QAAAAAAAAAAAABx38UMTKOEUV+ecU+yTf6pHj7qnpvjnakqtDd3Uo3TWabvz9mzzKpDd1yt95HBved22Obl8vlOZLCk8m9Pv79SjUxFtGQ/j1H+a/zyKdsW/jtGEWowhv5Zv4ba+V83poY7R8Qy+GMksvhiso+vE0Cm3xI54iz+G/0tpl+pn7qntNLEVJO+ZDUjLWX6kcsXJvJW+ZWrNt5ttkdITfjJaf2M/wDXy4WsU7DtmW9qelueNlJWul0S/fUiTPlPDssQoxVk7t8ln+hPtWmag++xnGjJ23Vdv0RuaGzXK14Ky03sl7cTp9jeEsVVtu0mov8APLyRtzzV36XL541phyOH2ZbOWb5LT3N3srY1WrLdpQcnygr27vRerPTdjfw/pU7SrS/Ef8q8sPq/dHX4bDwpxUYRUYrRRSS+R0Z4b9tc8bzzYf8ADt33q7UNPLHzSfeWi9LnfYDZ1KjHdpQUV01fd6v1LQN84mfDSSQABZIAAAAAAAAAAAAAAAAAAOa2h4ShUv52r21Sby0zVjyzxf4aqYeruyd084yzs19T3gq7Q2fTrQcKsFKL58OqfBnPfT5/1U1iV+bJ4WXD0KU6Mk87nsu2f4Zpvew1W39NS/spLP5HI7U8H4ul8dHeS/NDzL1sYb49T6YXjscLuvkZRg+Vzc19lyWqkrf0sw/0D/7cu5j7NVX2tV0SXovqfY0ua155I20Nl1OEfWTSL+D8NYmpkrvpCMpP9Ei841plzf8Apop+aS7a/Imp0JTdqcG+p6Jsj+GVR5zio9aju/8Axj+7Oy2b4FoU7fiSdTovJD2jm/c2nDV5ivHtmeF6lRpWnOX8sFf3eiO92J/DietRxpLkvPP30R6VhcLCnHdpwjFcopJfImNs8MnlpMRpdkeGMNh7OMN6f88/NL04L0RubH0GsknhcABIAAAAAAAAAAAAAAAAAAAAAAAAAAAfGfQBBWwdOXxQjLvFP9UV/wD4bD6/gU//AAj9C+COoK0MBSWlKC7Rj9CwkfQT0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/2Q=="/>
+    <ion-card-content>
+      <ion-card-title>
+        Cucumber
+        </ion-card-title>
+      <p>
+        Domestic cucumber! <br>
+        Add to cart.
+      </p>
+      <ion-item no-lines>
+        
+        <ion-input type="number" text-center></ion-input>                   
+    <button (click)="showAlert()" style="background-color: green;">Add to cart!</button>
+     </ion-item>
+      
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="https://produits.bienmanger.com/35371-0w600h600_Eggplant_From_France.jpg"/>
+    <ion-card-content>
+      <ion-card-title>
+        Eggplant
+        </ion-card-title>
+      <p>
+        Eggplant country of origin China! <br>
+        Add to cart.
+      </p>
+      <ion-item no-lines>
+        
+        <ion-input type="number" text-center></ion-input>                   
+    <button (click)="showAlert()" style="background-color: green;">Add to cart!</button>
+     </ion-item>
+      
+    </ion-card-content>
+  </ion-card>
+
+<ion-card>
+  <img src="https://www.satotukku.fi//i/o/herkkusieni.jpg"/>
+  <ion-card-content>
+    <ion-card-title>
+      Mushroom
+      </ion-card-title>
+    <p>
+      Domestic mushrooms! <br>
+      Add to cart.
+    </p>
+    <ion-item no-lines>
+      
+      <ion-input type="number" text-center></ion-input>                   
+  <button (click)="showAlert()" style="background-color: green;">Add to cart!</button>
+   </ion-item>
+    
+  </ion-card-content>
+</ion-card>
+
+
+  
+</ion-content>

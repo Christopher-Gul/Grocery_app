@@ -1,0 +1,36 @@
+.imgG {
+    margin-left: px;
+}
+
+
+.icon {
+    display: inline-block;
+    font-size: 35px;
+    color: #ffC977;
+    vertical-align: middle;
+   }
+   
+   .text{
+     display: inline-block;
+     vertical-align: middle;
+   }
+
+   h3 {
+       text-align: center;
+   }
+
+   .red:before {
+    color: red;
+    }
+
+    .green:before {
+    color: green;
+    }
+
+    .flex_row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row; 
+    flex-direction: row;
+    }
+ 
